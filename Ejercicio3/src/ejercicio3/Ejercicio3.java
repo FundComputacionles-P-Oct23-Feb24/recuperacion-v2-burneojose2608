@@ -20,7 +20,7 @@ public class Ejercicio3 {
             "Diciembre"};
         int[] ventaNumeroTelevisores = {100, 130, 150, 200, 100, 190, 200, 200,
             300, 100, 400, 1000};
-        int[] ventaNumeroCelulares = {20, 30, 22, 50, 100, 35, 90, 80, 10,
+            int[] ventaNumeroCelulares = {20, 30, 22, 50, 100, 35, 90, 80, 10,
             40, 50, 60};
 
         for (int i = 0; i < meses.length; i++) {

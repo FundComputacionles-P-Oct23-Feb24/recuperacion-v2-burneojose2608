@@ -1,0 +1,30 @@
+Algoritmo ejercicio 2
+Inicio
+1.Tenemos un arreglo de unidimensional llamado equipos
+2.Tenemos otro areglo bidimensional llamado goles
+3.De ahi creamos un cilclo repetitivo (para)  para que asi se corra el arreglo goles
+4.Vamos a crear un procedimiento llamado presentarReporte donde recibe un cadena y cuatro variables de tipo entero
+5.En el procedimento creo una variable de tipo entero que se llama totalPuntos
+6.De ahi sumamos las cuatro variables de tipo entero y el resultado se almacena en totalPuntos
+7.De ahi presentamos la cadena las cuatro variables  y totalPuntos
+Fin
+
+
+Miniespecificacion
+1.Inicio
+2.Funcion principal()
+3.equipos (8), x(100) [{A-Z} {a-z} {BS}]  <-- {"Barcelona", "Emelec", "Liga de Quito", "Independiente del Valle", "Delfin", "Macará", "Deportivo Cuenca", "Orense"}
+4.goles (8)(4), i [0-n]  <-- {{1, 2, 2, 5}, {4, 1, 1, 4}, {8, 0, 1, 3}, {7, 1, 1, 2}, {6, 0, 1, 2}, {5, 2, 1, 1}, {4, 0, 3, 2}, {3, 1, 2, 1}, }
+5.indice,i [0-n]
+6.Para( indice <-- 0; indice < equipos,1)haga
+7.  presentarReporte(equipos[indice], goles[indice][0], goles[indice][1], goles[indice][2], goles[indice][3])
+8.Fin para
+9.Fin funcion principal
+10.Funcion presetarReporte (equipó,x,num1,i,num2,i ,num3,i,num4,i) 
+11.  totalPuntos, i [0-n]
+12.  totalPuntos = num1 + num2 + num3 + num4;
+13. << equipo +"con puntos:"+ num1+ num2+ num3+ num4+ "tiene un total de"+ totalPuntos            
+14.Fin funcion presentarReporte
+15.Fin
+
+

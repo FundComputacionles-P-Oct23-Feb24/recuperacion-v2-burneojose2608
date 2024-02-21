@@ -1,0 +1,61 @@
+Algoritmo ejercicio uno
+Inicio 
+1 Creamos una variable llamda contador de tipo entero inicialisada en 1
+2.Creamos otra varibale llamada limite igualmente de tipo entero
+3.Creamos otra variable llamda bacalao de tipo decimal
+4.Creamos otra variable llamada camaron de tipo decimal
+5.Creamos otra variable llamada costo_bacalo de tipo decimal
+6.Creamos otra variale llamada costo_camaron de  tipo decimal
+7.Y creamos una variable llamada nombre de tipo cadena
+8.De ahi le decimos al usuario que ingrese el numero de pescadores, la variable limite va a guadar el numero de pescadores que va querer ingresar el usuario de
+9.ahi vamos a utilizar un ciclo repetitvo que seria el (mientras) donde vamos a poner que contador es menor que limite  para que asi entre en el cilco las veces que       10. el usuario pidio
+11.De ahi una vez en el ciclo se le va pedir al usuario que ingrese su nombre
+12.Se le va a pedir que ingrese las libras de camaron
+13.Se le va a pedir que ingrese las libras de bacalao
+14.Y de ahi se va ser una multiplicacion con las libras de camaron  que ingreso por 1.1   y el resultado se la va a guardarr e la variable  costo_camaron
+15.Y de ahi se va ser una multiplicacion con las libras de bacalao  que ingreso por 1.2   y el resultado se la va a guadar e la variable  costo_bacalo
+16.De ahi presentamos lo que es el nombre cuantas libras ingreso de camaron y bacalao y el costo
+17.El contador lo aumentamos en 1
+18.De ahi costo_bacalo y costo_camaron se envian a una funcion  valores
+19.Creamos una funcion valores que recibe tipo decimal costo_bacalo tipo decimal .costo_camaron
+20.Y creamos una cadena acumuladora
+21.Una variable decimal   que se llama total
+22.Y de ahi multiplicamos  costo_camaron por costo_bacalo el resultado se guarda en la variable total
+23.Y de ahi presetamos la cadena acumuladora y el total y la retornamos
+Fin
+
+Miniespecificacion
+1.Inicio
+2.Funcion principal()
+3. contador, i [0-n] <--1
+4. limite , i [0-n]
+5. bacalao,d [0-n]
+6. camaron ,d [0-n]
+7. costo_bacalo ,d [0-n]
+8. costo_camaron ,d [0-n]
+9. nombre, x(100) [{A-Z} {a-z} {BS}]
+10. Valor, x(100) [{A-Z} {a-z} {BS}]
+11.<<"Ingrese el numero de pescadores"
+12.>>limite
+13.Mientras(contador <= limite)entonces
+14.    <<"Ingrese su nombre"
+15.    >> nombre
+16.    <<"Ingrese la libras de camaron"
+17.    >> camaron
+18.    <<"Ingrese las libras de bacalao"
+19.    >> bacalao
+20.    costo_camaron = camaron * 1.1
+21.    costo_bacalo = bacalao * 1.2
+22.    << "Pescador: "+ nombre \n + "Libras de camaron "+ camaron \n + "costo$:" + costo_camaron + "Libras de bacalao "+ bacalao + "costo :$"+ costo_bacalao
+23.    valor <-- valores(costo_camaron, costo_bacalo)
+24.    contador = contador + 1
+25.Fin mienmtras 
+26.Fin funcion principal
+27.Funcion valores (costo_camaron,d ,costo_bacalo,d):x         
+28.    Valor, x(100) [{A-Z} {a-z} {BS}] <--""
+29.    total,d [0-n]
+30.    total = costo_camaron * costo_bacalo;
+31.    valor <-- valor "Total a pagar al pescador"+ total
+32.    retorna cadena
+33.Fin funcion valores
+34.Fin

@@ -23,9 +23,9 @@ public class Ejercicio4 {
         }
     }
 
-    private static double calcularTermino(int n) {
-        int numerador = n * 2;
-        int denominador = 7 * n;
+    private static double calcularTermino(int i) {
+        int numerador = i * 2;
+        int denominador = 7 * i;
         return (double)  numerador / denominador;
     }
 

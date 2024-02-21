@@ -17,7 +17,7 @@ public class Ejercicio2 {
         // TODO code application logic here
         String[] equipos = {
             "Barcelona", "Emelec", "Liga de Quito", "Independiente del Valle",
-            "Delfin", "Macará", "Deportivo Cuenca", "Orense"};
+            "Delfin", "Macara", "Deportivo Cuenca", "Orense"};
 
         int[][] goles = {
             {1, 2, 2, 5}, {4, 1, 1, 4}, {8, 0, 1, 3}, {7, 1, 1, 2},
@@ -33,7 +33,7 @@ public class Ejercicio2 {
 
         int totalPuntos = num1 + num2 + num3 + num4;
         System.out.printf("%s con puntos: %d %d %d %d tiene un total de "
-                + "puntos de %d ", equipo, num1, num2, num3,
+                + "puntos de %d \n ", equipo, num1, num2, num3,
                 num4, totalPuntos);
 
     }

@@ -1,0 +1,12 @@
+Ejercicio 4 algoritmo 
+Inicio
+Creamos una variable de tipo deciaml llamada resultado
+Creamos un ciclo repetitivo (para) donde se va a interar hasta que se igual que 6
+la variable resultado va hacer igual a calcularTermino en la poscion del arreglo y eso va enviar a una funcion
+De ahi presentamos resultado
+Creamos la funcion calcularTermino que recuve de la funcion principal una variable de tipo entero
+de ahi creamos dos variables de tipo entero numerador y denominador
+De ahi multiplicamos la varible que recive de la funcion principal por  2 el resultado se lo almacena en numerador
+De ahi multiplicamos 7 por la varibale que recibe de la funcion principal y se lo almacena en la variable denominador
+y retornamos un decimal la division de numerador y denominador
+Fin
