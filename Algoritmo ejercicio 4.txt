@@ -1,12 +1,41 @@
 Ejercicio 4 algoritmo 
 Inicio
-Creamos una variable de tipo deciaml llamada resultado
-Creamos un ciclo repetitivo (para) donde se va a interar hasta que se igual que 6
-la variable resultado va hacer igual a calcularTermino en la poscion del arreglo y eso va enviar a una funcion
-De ahi presentamos resultado
-Creamos la funcion calcularTermino que recuve de la funcion principal una variable de tipo entero
-de ahi creamos dos variables de tipo entero numerador y denominador
-De ahi multiplicamos la varible que recive de la funcion principal por  2 el resultado se lo almacena en numerador
-De ahi multiplicamos 7 por la varibale que recibe de la funcion principal y se lo almacena en la variable denominador
-y retornamos un decimal la division de numerador y denominador
+1.Creamos una  variable llamda numerador de tipo entero inicialisada en 0
+2.Creamos una variable lllamda dominador de tipo entero inicialisada en 0
+3.De ahi esas dos varibles son envidas a una funcion obtenerSuma
+4.Creamos la funcion obtnerSuma  que recibe tipo entero a numerador y tipo entero a denominador
+5.En la funcion obtenerSuma se crea una varibale de tipo decimal llamda suma inicialsida en 0
+6.Tamnien creamos otra variable de tipo decimal llamda calcular
+7.De ahi usamos en ciclo repetivo (para)
+8.De ahi la variable numerador la sumanos en mas 2
+9.La variable denominador la sumamos mas 7
+10.De ahi con la variable i que se crea en el ciclo (para) la dividimos para numerador y la respuesta se guarda en calcular
+11.Y la variable calcular la devidimos para denominador
+12.Y de ahi la varible suma la sumamos mas calcular
+13.Y de ahi presetamos todo y retornamos suma
 Fin
+
+ Miniespecificacion
+1.Inicio
+2.Funcion principal()
+3.numerador,i [0-n] <--0
+4.denominador,i [0-n] <--0
+5.suma,d [0-n]
+6.suma<-- obtnerSuma(dnumerador,denominador)
+7.<<"la sumade todos  de todos los valores es: \n "+ suma
+8.fin funcion principal
+9.funcion obtnerSuma(numerador,i,denominador,i)
+10.  suma,d [0-n] <--0
+11.  calcular,d [0-n]
+12.  indice,i [0-n]
+13.  Para(indice<--1,indice <7,1)haga
+14.     numerador = numerador + 2
+15.     denominador = denominador +7
+16.     calcular = indice * numerador
+17.     cacular = calcular/ denominador
+18.     suma = suma + calcular
+19.     << numerador + "*" + denominador +"/"+ calcular
+20.  fin para
+21.retorna suma	
+22.Fin funcion obtnerSuma
+23.Fin

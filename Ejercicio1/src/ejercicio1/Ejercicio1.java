@@ -21,7 +21,7 @@ public class Ejercicio1 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         int contador = 1;
-        int limite ;
+        int limite;
         double bacalao;
         double camaron;
         double costo_bacalo;
@@ -40,12 +40,12 @@ public class Ejercicio1 {
             costo_camaron = camaron * 1.1;
             costo_bacalo = bacalao * 1.2;
             System.out.printf("Pescador :%s\n Libras de camaron  %.1f - "
-                 + "costo: $ %.1f\n Libras de bacalao %.1f - costo : $ %.1f\n ",
-                     nombre, camaron, costo_camaron,
+                    + "costo: $ %.1f\n Libras de bacalao %.1f - costo : $ %.1f\n ",
+                    nombre, camaron, costo_camaron,
                     bacalao, costo_bacalo);
             entrada.nextLine();
-            String valor = valores(costo_camaron, costo_bacalo);
-     
+            String valores = valores(costo_camaron, costo_bacalo);
+
             contador = contador + 1;
         }
     }
@@ -53,7 +53,7 @@ public class Ejercicio1 {
     public static String valores(double costo_camaron, double costo_bacalo) {
         String cadena = "";
         double total;
-        total = costo_camaron * costo_bacalo;
+        total = costo_camaron + costo_bacalo;
         cadena = String.format("%s Total a pagar al pescador. $  %.2f\n",
                 cadena, total);
 

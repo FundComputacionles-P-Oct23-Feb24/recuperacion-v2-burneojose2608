@@ -25,14 +25,14 @@ public class Ejercicio3 {
 
         for (int i = 0; i < meses.length; i++) {
             if (ventaNumeroCelulares[i] <= 35) {
-                String reporte = generarReporte(meses[i], ventaNumeroTelevisores[i],
+                String reporte = obtenerReporte(meses[i], ventaNumeroTelevisores[i],
                         ventaNumeroCelulares[i]);
                 
             }
         }
     }
 
-    private static String generarReporte(String mes, int numTelevisores,
+    public static String obtenerReporte(String mes, int numTelevisores,
             int numCelulares) {
         System.out.printf("%s: televisores %d - celulares %d\n",
                  mes, numTelevisores, numCelulares);
