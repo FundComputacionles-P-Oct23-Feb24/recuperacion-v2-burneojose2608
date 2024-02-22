@@ -27,17 +27,17 @@ Fin
 Miniespecificacion
 1.Inicio
 2.Funcion principal()
-3. contador, i [0-n] <--1
-4. limite , i [0-n]
-5. bacalao,d [0-n]
-6. camaron ,d [0-n]
-7. costo_bacalo ,d [0-n]
-8. costo_camaron ,d [0-n]
-9. nombre, x(100) [{A-Z} {a-z} {BS}]
-10. Valor, x(100) [{A-Z} {a-z} {BS}]
-11.<<"Ingrese el numero de pescadores"
-12.>>limite
-13.Mientras(contador <= limite)entonces
+3.  contador, i [0-n] <--1
+4.  limite , i [0-n]
+5.  bacalao,d [0-n]
+6.  camaron ,d [0-n]
+7.  costo_bacalo ,d [0-n]
+8.  costo_camaron ,d [0-n]
+9.  nombre, x(100) [{A-Z} {a-z} {BS}]
+10.  Valor, x(100) [{A-Z} {a-z} {BS}]
+11.  <<"Ingrese el numero de pescadores"
+12.   >>limite
+13. Mientras(contador <= limite)entonces
 14.    <<"Ingrese su nombre"
 15.    >> nombre
 16.    <<"Ingrese la libras de camaron"
@@ -49,7 +49,7 @@ Miniespecificacion
 22.    << "Pescador: "+ nombre \n + "Libras de camaron "+ camaron \n + "costo$:" + costo_camaron + "Libras de bacalao "+ bacalao + "costo :$"+ costo_bacalao
 23.    valor <-- valores(costo_camaron, costo_bacalo)
 24.    contador = contador + 1
-25.Fin mienmtras 
+25. Fin mienmtras 
 26.Fin funcion principal
 27.Funcion valores (costo_camaron,d ,costo_bacalo,d):x         
 28.    Valor, x(100) [{A-Z} {a-z} {BS}] <--""

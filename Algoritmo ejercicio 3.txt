@@ -14,19 +14,19 @@ Fin
 Miniespecificacion
 1.Inicio
 2.Funcion principal()
-3.meses (12), x(100)  [{A-Z} {a-z} {BS}]  <-- {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", 4."Diciembre"}
-5.ventaNumeroTelevisores (12), i [0-n]  <-- {100, 130, 150, 200, 100, 190, 200, 200, 300, 100, 400, 1000}
-6.ventaNumeroCelulares (12), i [0-n] <-- {20, 30, 22, 50, 100, 35, 90, 80, 10, 40, 50, 60}
-7.indice,i [0-n]
-8.reporte, x(100) [{A-Z} {a-z} {BS}]
-9.Para( indice <-- 0; indice < meses,1)haga
-10.  si (ventaNumeroCelulares[indice] <= 35) {
-11.        reporte <-- generarReporte(meses[indice], ventaNumeroTelevisores[indice],ventaNumeroCelulares[indice])
-12.  fin si
-13.fin para
+3.   meses (12), x(100)  [{A-Z} {a-z} {BS}]  <-- {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", 4."Diciembre"}
+5.   ventaNumeroTelevisores (12), i [0-n]  <-- {100, 130, 150, 200, 100, 190, 200, 200, 300, 100, 400, 1000}
+6.   ventaNumeroCelulares (12), i [0-n] <-- {20, 30, 22, 50, 100, 35, 90, 80, 10, 40, 50, 60}
+7.   indice,i [0-n]
+8.   reporte, x(100) [{A-Z} {a-z} {BS}]
+9.   Para( indice <-- 0; indice < meses,1)haga
+10.   si (ventaNumeroCelulares[indice] <= 35) {
+11.         reporte <-- generarReporte(meses[indice], ventaNumeroTelevisores[indice],ventaNumeroCelulares[indice])
+12.   fin si
+13.  fin para
 14.Fin funcion principal
 15.Funcion generarReporte(mes,x,numTelevisores,i,numCelulares,i):x
-16. << mes + "televisores"+ numTelevisores + "- celulares" + celulares                      
-17. retorna mes
+16.   << mes + "televisores"+ numTelevisores + "- celulares" + celulares                      
+17.    }retorna mes
 18.Fin funcion generarReporte
 19.Fin

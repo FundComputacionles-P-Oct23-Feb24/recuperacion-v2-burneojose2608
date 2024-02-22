@@ -13,11 +13,11 @@ Fin
 Miniespecificacion
 1.Inicio
 2.Funcion principal()
-3.equipos (8), x(100) [{A-Z} {a-z} {BS}]  <-- {"Barcelona", "Emelec", "Liga de Quito", "Independiente del Valle", "Delfin", "Macará", "Deportivo Cuenca", "Orense"}
-4.goles (8)(4), i [0-n]  <-- {{1, 2, 2, 5}, {4, 1, 1, 4}, {8, 0, 1, 3}, {7, 1, 1, 2}, {6, 0, 1, 2}, {5, 2, 1, 1}, {4, 0, 3, 2}, {3, 1, 2, 1}, }
-5.indice,i [0-n]
-6.Para( indice <-- 0; indice < equipos,1)haga
-7.  presentarReporte(equipos[indice], goles[indice][0], goles[indice][1], goles[indice][2], goles[indice][3])
+3.  equipos (8), x(100) [{A-Z} {a-z} {BS}]  <-- {"Barcelona", "Emelec", "Liga de Quito", "Independiente del Valle", "Delfin", "Macará", "Deportivo Cuenca", "Orense"}
+4.  goles (8)(4), i [0-n]  <-- {{1, 2, 2, 5}, {4, 1, 1, 4}, {8, 0, 1, 3}, {7, 1, 1, 2}, {6, 0, 1, 2}, {5, 2, 1, 1}, {4, 0, 3, 2}, {3, 1, 2, 1}, }
+5.  indice,i [0-n]
+6.  Para( indice <-- 0; indice < equipos,1)haga
+7.     presentarReporte(equipos[indice], goles[indice][0], goles[indice][1], goles[indice][2], goles[indice][3])
 8.Fin para
 9.Fin funcion principal
 10.Funcion presetarReporte (equipó,x,num1,i,num2,i ,num3,i,num4,i) 
