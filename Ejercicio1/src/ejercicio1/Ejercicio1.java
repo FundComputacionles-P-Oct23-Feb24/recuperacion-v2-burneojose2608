@@ -45,19 +45,19 @@ public class Ejercicio1 {
                     bacalao, costo_bacalo);
             entrada.nextLine();
             String valores = valores(costo_camaron, costo_bacalo);
-
+            System.out.printf("%s",valores);
             contador = contador + 1;
         }
     }
 
     public static String valores(double costo_camaron, double costo_bacalo) {
-        String cadena = "";
+        String cadena ;
         double total;
         total = costo_camaron + costo_bacalo;
-        cadena = String.format("%s Total a pagar al pescador. $  %.2f\n",
-                cadena, total);
+        cadena = String.format(" Total a pagar al pescador. $  %.2f\n",
+                 total);
 
-        System.out.printf("%s", cadena);
+        
         return cadena;
     }
 

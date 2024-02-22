@@ -27,17 +27,18 @@ public class Ejercicio3 {
             if (ventaNumeroCelulares[i] <= 35) {
                 String reporte = obtenerReporte(meses[i], ventaNumeroTelevisores[i],
                         ventaNumeroCelulares[i]);
-                
+                System.out.printf("%s",reporte);
             }
         }
     }
 
     public static String obtenerReporte(String mes, int numTelevisores,
             int numCelulares) {
-        System.out.printf("%s: televisores %d - celulares %d\n",
+        String acumulador;
+        acumulador = String.format("%s: televisores %d - celulares %d\n",
                  mes, numTelevisores, numCelulares);
 
-        return mes;
+        return acumulador;
     }
 
 }
